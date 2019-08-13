@@ -14,6 +14,21 @@
 <link rel="stylesheet" type="text/css" href="plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css">
 <link rel="stylesheet" type="text/css" href="styles/post.css">
 <link rel="stylesheet" type="text/css" href="styles/post_responsive.css">
+<!-- Custom stlylesheet -->
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<!-- Google font -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7CLato:300,400" rel="stylesheet"> 
+		
+<!-- Bootstrap -->
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+<!-- Owl Carousel -->
+<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
 </head>
 <body>
 
@@ -21,77 +36,56 @@
 
 	<!-- Header -->
 
-	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="header_content d-flex flex-row align-items-center justify-content-start">
-						<div class="logo"><a href="#">avision</a></div>
-						<nav class="main_nav">
-							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="#">Fashion</a></li>
-								<li><a href="#">Gadgets</a></li>
-								<li><a href="#">Lifestyle</a></li>
-								<li><a href="#">Video</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</nav>
-						<div class="search_container ml-auto">
-							<div class="weather">
-								<div class="temperature">+10°</div>
-								<img class="weather_icon" src="images/cloud.png" alt="">
-							</div>
-							<form action="#">
-								<input type="search" class="header_search_input" required="required" placeholder="Type to Search...">
-								<img class="header_search_icon" src="images/search.png" alt="">
-							</form>
-							
+		<!-- Header -->
+		<header id="header">
+			
+			<!-- Center Header -->
+			<div id="center-header">
+				<div class="container">
+					<div class="header-logo">
+						<a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
+					</div>
+					<div class="header-ads">
+						<img class="center-block" src="./img/ad-2.jpg" alt=""> 
+					</div>
+				</div>
+			</div>
+			<!-- /Center Header -->
+			
+			<!-- Nav Header -->
+			<div id="nav-header">
+				<div class="container">
+					<nav id="main-nav">
+						<div class="nav-logo">
+							<a href="#" class="logo"><img src="./img/logo-alt.png" alt=""></a>
 						</div>
-						<div class="hamburger ml-auto menu_mm">
-							<i class="fa fa-bars trans_200 menu_mm" aria-hidden="true"></i>
+						<ul class="main-nav nav navbar-nav">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="#">Editorial</a></li>
+							<li><a href="#">Blogs</a></li>
+							<li><a href="#">Clasificados</a></li>
+							<li><a href="#">CASA guía</a></li>
+							<li><a href="#">SALUD guía</a></li>
+							<li><a href="#">AUTO guía</a></li>
+							<li><a href="#">Edición impresa</a></li>
+							<li><a href="#">Clasificados</a></li>
+						</ul>
+					</nav>
+					<div class="button-nav">
+						<button class="search-collapse-btn"><i class="fa fa-search"></i></button>
+						<button class="nav-collapse-btn"><i class="fa fa-bars"></i></button>
+						<div class="search-form">
+							<form>
+								<input class="input" type="text" name="search" placeholder="Search">
+							</form>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</header>
-
-	<!-- Menu -->
-
-	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
-		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
-		<div class="logo menu_mm"><a href="#">Avision</a></div>
-		<div class="search">
-			<form action="#">
-				<input type="search" class="header_search_input menu_mm" required="required" placeholder="Type to Search...">
-				<img class="header_search_icon menu_mm" src="images/search_2.png" alt="">
-			</form>
-		</div>
-		<nav class="menu_nav">
-			<ul class="menu_mm">
-				<li class="menu_mm"><a href="index.html">home</a></li>
-				<li class="menu_mm"><a href="#">Fashion</a></li>
-				<li class="menu_mm"><a href="#">Gadgets</a></li>
-				<li class="menu_mm"><a href="#">Lifestyle</a></li>
-				<li class="menu_mm"><a href="#">Video</a></li>
-				<li class="menu_mm"><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-	</div>
+			<!-- /Nav Header -->
+		</header>
+		<!-- /Header -->
 	
-	<!-- Home -->
-
-	<div class="home">
-		<div class="home_background parallax-window" data-parallax="scroll" data-image-src="images/post.jpg" data-speed="0.8"></div>
-		<div class="home_content">
-			<div class="post_category trans_200"><a href="category.html" class="trans_200">sport</a></div>
-			<div class="post_title">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex Concepts in Physics?</div>
-		</div>
-	</div>
-	
-	<!-- Page Content -->
-
 	<div class="page_content">
 		<div class="container">
 			<div class="row row-lg-eq-height">
@@ -273,11 +267,13 @@
 													<div class="comment_body">
 														<div class="comment_panel d-flex flex-row align-items-center justify-content-start">
 															<div class="comment_author_image"><div><img src="images/comment_author_1.jpg" alt=""></div></div>
-															<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-															<button type="button" class="reply_button ml-auto">Reply</button>
+															<small class="post_meta"><a href="#">Sara Montoya</a><span>Agos 29, 2019 at 9:48 am</span></small>
+															<button type="button" class="reply_button ml-auto">Respuesta</button>
 														</div>
 														<div class="comment_content">
-															<p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it off with your teeth. Sink them into unripened.</p>
+															<p>
+															Gracias a dios todo se soluciono.
+															</p>
 														</div>
 													</div>
 
@@ -287,11 +283,13 @@
 															<div class="comment_body">
 																<div class="comment_panel d-flex flex-row align-items-center justify-content-start">
 																	<div class="comment_author_image"><div><img src="images/comment_author_2.jpg" alt=""></div></div>
-																	<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-																	<button type="button" class="reply_button ml-auto">Reply</button>
+																	<small class="post_meta"><a href="#">Juan Gonzales</a><span>Sep 29, 2017 at 9:48 am</span></small>
+																	<button type="button" class="reply_button ml-auto">Respuesta</button>
 																</div>
 																<div class="comment_content">
-																	<p>Nulla facilisi. Aenean porttitor quis tortor id tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus molestie varius tincidunt. Vestibulum congue sed libero ac sodales.</p>
+																	<p>
+																		El mundo de cabeza, todo solucionado?
+																	</p>
 																</div>
 															</div>
 
@@ -306,11 +304,13 @@
 													<div class="comment_body">
 														<div class="comment_panel d-flex flex-row align-items-center justify-content-start">
 															<div class="comment_author_image"><div><img src="images/comment_author_1.jpg" alt=""></div></div>
-															<small class="post_meta"><a href="#">Katy Liu</a><span>Sep 29, 2017 at 9:48 am</span></small>
-															<button type="button" class="reply_button ml-auto">Reply</button>
+															<small class="post_meta"><a href="#">David Saenz</a><span>Agos 29, 2017 at 9:54 am</span></small>
+															<button type="button" class="reply_button ml-auto">Respuesta</button>
 														</div>
 														<div class="comment_content">
-															<p>Pick the yellow peach that looks like a sunset with its red, orange, and pink coat skin, peel it off with your teeth. Sink them into unripened.</p>
+															<p>
+																Tantas personas en un lugar asi, que impactante.
+															</p>
 														</div>
 													</div>
 												</li>
@@ -322,7 +322,7 @@
 						</div>
 					</div>
 					<div class="load_more">
-						<div id="load_more" class="load_more_button text-center trans_200">Load More</div>
+						<div id="load_more" class="load_more_button text-center trans_200">Cargar más</div>
 					</div>
 				</div>
 
@@ -374,7 +374,7 @@
 													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
 														<div class="side_post_image"><div><img src="images/top_1.jpg" alt=""></div></div>
 														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
+															<div class="side_post_title">Una semana sin medicamentos</div>
 															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
 														</div>
 													</div>
@@ -387,7 +387,7 @@
 													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
 														<div class="side_post_image"><div><img src="images/top_2.jpg" alt=""></div></div>
 														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
+															<div class="side_post_title">Guatemala es el tercer país más "seguro"</div>
 															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
 														</div>
 													</div>
@@ -400,7 +400,7 @@
 													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
 														<div class="side_post_image"><div><img src="images/top_3.jpg" alt=""></div></div>
 														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
+															<div class="side_post_title">Sitios petFriendly</div>
 															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
 														</div>
 													</div>
@@ -413,7 +413,7 @@
 													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
 														<div class="side_post_image"><div><img src="images/top_4.jpg" alt=""></div></div>
 														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
+															<div class="side_post_title">Los mares mas Peligrosos</div>
 															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
 														</div>
 													</div>
@@ -431,7 +431,7 @@
 													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
 														<div class="side_post_image"><div><img src="images/top_1.jpg" alt=""></div></div>
 														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
+															<div class="side_post_title">Restaurante en pena de muerte por delitos federales</div>
 															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
 														</div>
 													</div>
@@ -595,7 +595,7 @@
 													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
 														<div class="side_post_image"><div><img src="images/vid_1.jpg" alt=""></div></div>
 														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
+															<div class="side_post_title">Permiten exportar medicinas desde canada</div>
 															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
 														</div>
 													</div>
@@ -608,7 +608,7 @@
 													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
 														<div class="side_post_image"><div><img src="images/vid_2.jpg" alt=""></div></div>
 														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
+															<div class="side_post_title">Meses dorados para el país</div>
 															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
 														</div>
 													</div>
@@ -621,7 +621,7 @@
 													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
 														<div class="side_post_image"><div><img src="images/vid_3.jpg" alt=""></div></div>
 														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
+															<div class="side_post_title">Días lluviosos por todo el mes</div>
 															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
 														</div>
 													</div>
@@ -634,7 +634,9 @@
 													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
 														<div class="side_post_image"><div><img src="images/vid_4.jpg" alt=""></div></div>
 														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
+															<div class="side_post_title">
+																Visitas de extranjeros aumentan
+															</div>
 															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
 														</div>
 													</div>
@@ -652,7 +654,7 @@
 													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
 														<div class="side_post_image"><div><img src="images/vid_1.jpg" alt=""></div></div>
 														<div class="side_post_content">
-															<div class="side_post_title">How Did van Gogh’s Turbulent Mind</div>
+															<div class="side_post_title">Días lluviosos todo el mes</div>
 															<small class="post_meta">Katy Liu<span>Sep 29</span></small>
 														</div>
 													</div>
@@ -780,48 +782,197 @@
 
 	<!-- Footer -->
 
-	<footer class="footer">
-		<div class="container">
-			<div class="row row-lg-eq-height">
-				<div class="col-lg-9 order-lg-1 order-2">
-					<div class="footer_content">
-						<div class="footer_logo"><a href="#">avision</a></div>
-						<div class="footer_social">
-							<ul>
-								<li class="footer_social_facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li class="footer_social_twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-								<li class="footer_social_pinterest"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-								<li class="footer_social_vimeo"><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
-								<li class="footer_social_instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-								<li class="footer_social_google"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-						<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-					</div>
-				</div>
-				<div class="col-lg-3 order-lg-2 order-1">
-					<div class="subscribe">
-						<div class="subscribe_background"></div>
-						<div class="subscribe_content">
-							<div class="subscribe_title">Subscribe</div>
-							<form action="#">
-								<input type="email" class="sub_input" placeholder="Your Email" required="required">
-								<button class="sub_button">
-									<svg version="1.1" id="link_arrow_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-										 width="19px" height="13px" viewBox="0 0 19 13" enable-background="new 0 0 19 13" xml:space="preserve">
-										<polygon fill="#FFFFFF" points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 "/>
-									</svg>
-								</button>
-							</form>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
 </div>
+<!-- FOOTER -->
+<footer id="footer">
+	<!-- Top Footer -->
+	<div id="top-footer" class="section">
+		<!-- CONTAINER -->
+		<div class="container">
+			<!-- ROW -->
+			<div class="row">
+				<!-- Column 1 -->
+				<div class="col-md-4">
+					<!-- footer about -->
+					<div class="footer-widget about-widget">
+						<div class="footer-logo">
+							<a href="#" class="logo"><img src="./img/logo-alt.png" alt=""></a>
+							<p>Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis, ne alia sadipscing mei. Te inciderint cotidieque pro, ei iisque docendi qui.</p>
+						</div>
+					</div>
+					<!-- /footer about -->
+					
+					<!-- footer social -->
+					<div class="footer-widget social-widget">
+						<div class="widget-title">
+							<h3 class="title">Follow Us</h3>
+						</div>
+						<ul>
+							<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="google"><i class="fa fa-google"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="#" class="rss"><i class="fa fa-rss"></i></a></li>
+						</ul>
+					</div>
+					<!-- /footer social -->
+					
+					<!-- footer subscribe -->
+					<div class="footer-widget subscribe-widget">
+						<div class="widget-title">
+							<h2 class="title">Subscribe to Newslatter</h2>
+						</div>
+						<form>
+							<input class="input" type="email" placeholder="Enter Your Email">
+							<button class="input-btn">Subscribe</button>
+						</form>
+					</div>
+					<!-- /footer subscribe -->
+				</div>
+				<!-- /Column 1 -->
+				
+				<!-- Column 2 -->
+				<div class="col-md-4">
+					<!-- footer article -->
+					<div class="footer-widget">
+						<div class="widget-title">
+							<h2 class="title">Featured Posts</h2>
+						</div>
+
+						<!-- ARTICLE -->
+						<article class="article widget-article">
+							<div class="article-img">
+								<a href="#">
+									<img src="./img/img-widget-1.jpg" alt="">
+								</a>
+							</div>
+							<div class="article-body">
+								<h4 class="article-title"><a href="#">Duis urbanitas eam in, tempor consequat.</a></h4>
+								<ul class="article-meta">
+									<li><i class="fa fa-clock-o"></i> January 31, 2017</li>
+									<li><i class="fa fa-comments"></i> 33</li>
+								</ul>
+							</div>
+						</article>
+						<!-- /ARTICLE -->
+						
+						<!-- ARTICLE -->
+						<article class="article widget-article">
+							<div class="article-img">
+								<a href="#">
+									<img src="./img/img-widget-2.jpg" alt="">
+								</a>
+							</div>
+							<div class="article-body">
+								<h4 class="article-title"><a href="#">Duis urbanitas eam in, tempor consequat.</a></h4>
+								<ul class="article-meta">
+									<li><i class="fa fa-clock-o"></i> January 31, 2017</li>
+									<li><i class="fa fa-comments"></i> 33</li>
+								</ul>
+							</div>
+						</article>
+						<!-- /ARTICLE -->
+						
+						<!-- ARTICLE -->
+						<article class="article widget-article">
+							<div class="article-img">
+								<a href="#">
+									<img src="./img/img-widget-3.jpg" alt="">
+								</a>
+							</div>
+							<div class="article-body">
+								<h4 class="article-title"><a href="#">Duis urbanitas eam in, tempor consequat.</a></h4>
+								<ul class="article-meta">
+									<li><i class="fa fa-clock-o"></i> January 31, 2017</li>
+									<li><i class="fa fa-comments"></i> 33</li>
+								</ul>
+							</div>
+						</article>
+						<!-- /ARTICLE -->
+					</div>
+					<!-- /footer article -->
+				</div>
+				<!-- /Column 2 -->
+				
+				<!-- Column 3 -->
+				<div class="col-md-4">
+					<!-- footer galery -->
+					<div class="footer-widget galery-widget">
+						<div class="widget-title">
+							<h2 class="title">Flickr Photos</h2>
+						</div>
+						<ul>
+							<li><a href="#"><img src="./img/img-widget-3.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/img-widget-4.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/img-widget-5.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/img-widget-6.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/img-widget-7.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/img-widget-8.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/img-widget-9.jpg" alt=""></a></li>
+							<li><a href="#"><img src="./img/img-widget-10.jpg" alt=""></a></li>
+						</ul>
+					</div>
+					<!-- /footer galery -->
+					
+					<!-- footer tweets -->
+					<div class="footer-widget tweets-widget">
+						<div class="widget-title">
+							<h2 class="title">Recent Tweets</h2>
+						</div>
+						<ul>
+							<li class="tweet">
+								<i class="fa fa-twitter"></i>
+								<div class="tweet-body">
+									<p><a href="#">@magnews</a> Populo tritani laboramus ex mei, no eum iuvaret ceteros euripidis <a href="#">https://t.co/DwsTbsmxTP</a></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- /footer tweets -->
+				</div>
+				<!-- /Column 3 -->
+			</div>
+			<!-- /ROW -->
+		</div>
+		<!-- /CONTAINER -->
+	</div>
+	<!-- /Top Footer -->
+	
+	<!-- Bottom Footer -->
+	<div id="bottom-footer" class="section">
+		<!-- CONTAINER -->
+		<div class="container">
+			<!-- ROW -->
+			<div class="row">
+				<!-- footer links -->
+				<div class="col-md-6 col-md-push-6">
+					<ul class="footer-links">
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Advertisement</a></li>
+						<li><a href="#">Privacy</a></li>
+					</ul>
+				</div>
+				<!-- /footer links -->
+				
+				<!-- footer copyright -->
+				<div class="col-md-6 col-md-pull-6">
+					<div class="footer-copyright">
+						<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+					</div>
+				</div>
+				<!-- /footer copyright -->
+			</div>
+			<!-- /ROW -->
+		</div>
+		<!-- /CONTAINER -->
+	</div>
+	<!-- /Bottom Footer -->
+</footer>
+<!-- /FOOTER -->
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="styles/bootstrap4/popper.js"></script>
