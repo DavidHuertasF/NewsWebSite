@@ -1,36 +1,3 @@
-/*
-Template Name:  News & Magazine Template
-Author: yaminncco
-
-Colors:
-	Body 		: #2C2C2C
-	Headers 	: #07090C
-	Primary 	: #EF233C
-	Dark 		: #07090C #222
-	Grey 		: #DDD
-
-Fonts: Open Sans Lato
-
-Table OF Contents
-------------------------------------
-1 > General
-2 > Header
-3 > Section
-4 > Article
-5 > Widget
-6 > Article Post
-7 > Footer
-8 > Owl Theme
-9 > Responsive
-10 > Back to Top
-------------------------------------*/
-
-/*=========================================================
-	GENERAL
-===========================================================*/
-/*----------------------------*\
-	typography
-\*----------------------------*/
 body {
 	font-family: 'Lato', sans-serif;
 	color:#2C2C2C;
@@ -71,7 +38,7 @@ a {
 
 a:hover,
 a:focus{
-	color: #EF233C;
+	color: #3F51B5;
     text-decoration: none;
     outline: none;
 }
@@ -81,6 +48,11 @@ ul,ol{
     padding: 0;
     list-style: none
 }
+
+.metro{
+	background: #1bbc9b !important;
+}
+
 
 /*----------------------------*\
 	input
@@ -101,7 +73,7 @@ textarea.input {
 	display: inline-block;
 	padding: 12px 30px;
 	color: #FFF;
-	background-color: #EF233C;
+	background-color: #3F51B5;
 	border: none;
 	text-transform: uppercase;
 	opacity: 1;
@@ -148,7 +120,7 @@ textarea.input {
 }
 
 .header-links ul li a:hover  {
-	color:#EF233C;
+	color:#3F51B5;
 }
 
 .header-social {
@@ -174,7 +146,7 @@ textarea.input {
 }
 
 .header-social ul li a:hover {
-	color:#EF233C;
+	color:#3F51B5;
 }
 
 /*----------------------------*\
@@ -247,7 +219,7 @@ textarea.input {
 }
 
 .main-nav li.active a {
-	background-color:#EF233C !important;
+	background-color:#303F9F !important;
 }
 
 .main-nav li a:hover, .main-nav li a:focus {
@@ -268,7 +240,7 @@ textarea.input {
 }
 
 .button-nav .search-collapse-btn.active {
-	background: #EF233C;
+	background: #3F51B5 ;
 }
 
 .search-form {
@@ -277,7 +249,7 @@ textarea.input {
 	background: #07090c;
 	padding: 20px;
 	right: 0;
-	border-top: 2px solid #EF233C;
+	border-top: 2px solid #3F51B5;
 	-webkit-box-shadow: 0px 5px 6px -5px rgba(0, 0, 0, 0.4);
 	        box-shadow: 0px 5px 6px -5px rgba(0, 0, 0, 0.4);
 	z-index: 22;
@@ -476,11 +448,11 @@ textarea.input {
 }
 
 .tab-nav li.active {
-	border-color:#EF233C;
+	border-color: #009fc6;
 }
 
 .tab-nav li.active a {
-	background-color:#EF233C;
+	background-color: #009fc6;
 	color:#FFF;
 }
 
@@ -492,7 +464,7 @@ textarea.input {
 	height: 0;
 	border-style: solid;
 	border-width: 20px 15px 0 15px;
-	border-color: #EF233C transparent transparent;
+	border-color:  #009fc6 transparent transparent;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	    -ms-transform: translateX(-50%);
@@ -583,7 +555,7 @@ textarea.input {
 	padding: 0px 15px;
 	height: 30px;
 	line-height: 30px;
-	background: #EF233C;
+	background: #3F51B5;
 	color: #FFF;
 	text-transform: uppercase;
 	font-size: 12.5px;
@@ -736,13 +708,13 @@ textarea.input {
 	font-size:12.5px;
 }
 .article-pagination ul li a:hover {
-	color:#EF233C;
-	border-color:#EF233C;
+	color:#3F51B5;
+	border-color:#3F51B5;
 }
 
 .article-pagination ul li.active a {
-	background-color:#EF233C;
-	border-color:#EF233C;
+	background-color:#3F51B5;
+	border-color:#3F51B5;
 	color:#FFF;
 }
 
@@ -959,8 +931,8 @@ textarea.input {
 }
 
 .widget-tags ul li a:hover {
-	color:#EF233C;
-	border-color:#EF233C;
+	color:#3F51B5;
+	border-color:#3F51B5;
 }
 
 /*=========================================================
@@ -1133,7 +1105,7 @@ textarea.input {
 }
 
 #footer a:hover {
-	color:#EF233C;
+	color:#3F51B5;
 }
 
 /*------------------------------------*\
@@ -1209,8 +1181,8 @@ textarea.input {
 }
 
 .custom-owl-nav > div:not(.disabled):hover {
-	background-color:#EF233C;
-	border-color: #EF233C;
+	background-color:#3F51B5;
+	border-color: #3F51B5;
 	color:#FFF;
 }
 
@@ -1254,7 +1226,7 @@ textarea.input {
 
 .owl-theme.center-owl-nav .owl-nav [class*='owl-']:hover {
     opacity: 0.8;
-    background: #EF233C;
+    background: #3F51B5;
 }
 
 /*------------------------------------*\
@@ -1266,10 +1238,10 @@ textarea.input {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #EF233C;
+    background: #3F51B5;
 }
 .owl-theme .owl-dots .owl-dot.active span {
-	background: #EF233C;
+	background: #3F51B5;
 }
 
 /*=========================================================
@@ -1352,7 +1324,7 @@ textarea.input {
 }
 
 #back-to-top:hover {
-	background-color:#EF233C;
+	background-color:#3F51B5;
 }
 
 #back-to-top.active {
