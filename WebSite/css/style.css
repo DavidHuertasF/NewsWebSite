@@ -391,6 +391,9 @@ textarea.input {
 	background-color:#DDD;
 	z-index:-1;
 }
+.in{
+	background-color: #2a7fb8 !important;
+}
 
 .section-title .title {
 	position:relative;
